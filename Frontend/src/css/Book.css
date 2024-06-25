@@ -1,0 +1,45 @@
+/* Book.css */
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust spacing between rows */
+}
+
+.book-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Ensure 4 books per row */
+  gap: 20px; /* Adjust spacing between books */
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+}
+
+.book-details {
+  text-align: center;
+}
+
+.book-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
